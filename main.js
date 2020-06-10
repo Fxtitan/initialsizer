@@ -12,23 +12,22 @@ const getInitials = (firstName, lastName) => {
   return initials
 }
 
-getInitials('Sharod', 'Bailey');
-console.log(getInitials('Sharod', 'Bailey'));
-
-const newFunction = (str) => {
-  return str 
-}
-
-newFunction();
-console.log(newFunction('Sharod Bailey'));
+let newVariable = getInitials(firstName, lastName);
+console.log(newVariable);
 
 
 
-// const fullName = firstName + lastName;
-// const theRest = fullName.length
-// console.log(theRest);
 
-const message1 = 'Hey, ' + getInitials('Sharod', 'Bailey')  +  ', Mind if I call you that? Your full name is ' + theRest + ' letters long!'
+
+
+
+
+
+const fullName = firstName + lastName;
+const theRest = fullName.length
+console.log(theRest);
+
+const message1 = 'Hey, ' + newVariable +  ', Mind if I call you that? Your full name is ' + theRest + ' letters long!'
 console.log(message1);
 
 
