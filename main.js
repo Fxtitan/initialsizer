@@ -1,6 +1,44 @@
 /*******************************************************************************
  * Your code here!
  ******************************************************************************/
+const firstName = getInput(0);
+const lastName = getInput(1);
+
+//should take in two strings.
+//return one string as initials.
+
+const getInitials = (firstName, lastName) => {
+  let initials = firstName[0] + '.' + lastName[0] + '.';
+  return initials
+}
+
+getInitials('Sharod', 'Bailey');
+console.log(getInitials('Sharod', 'Bailey'));
+
+const newFunction = (str) => {
+  return str 
+}
+
+newFunction();
+console.log(newFunction('Sharod Bailey'));
+
+
+
+// const fullName = firstName + lastName;
+// const theRest = fullName.length
+// console.log(theRest);
+
+const message1 = 'Hey, ' + getInitials('Sharod', 'Bailey')  +  ', Mind if I call you that? Your full name is ' + theRest + ' letters long!'
+console.log(message1);
+
+
+
+
+
+
+
+
+
 
 
 
